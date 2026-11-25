@@ -1,0 +1,259 @@
+{
+  "launcherTitle": "IMPERIUM",
+  "discordInvite": "discord.gg/imperium-civ",
+  "mapUrlLabel": "map.imperium-civ.ru",
+  "wikiTitle": "Атлас Цивилизации 1.21.1",
+  "remoteConfigUrl": "",
+  "realms": [
+    {
+      "id": "minigames",
+      "name": "Imperium · MiniGames",
+      "genre": "Мини-игры и арены",
+      "status": "open",
+      "statusLabel": "Подготовка сервера",
+      "eraLabel": "Турнирный сезон",
+      "mcVersion": "1.21.1",
+      "loader": "Fabric",
+      "onlinePlayers": 0,
+      "maxPlayers": 1000,
+      "ipAddress": "play.imperium-civ.ru:25564",
+      "description": "Быстрые рейтинговые матчи без долгой раскачки: BedWars, SkyWars, Дуэли 1×1 и аркады с низким пингом и мгновенным поиском игр на 1.21.1.",
+      "heroImage": "/src/assets/images/hero_minigames_arena_1795600660014.jpg",
+      "accentHex": "#F59E0B",
+      "baseSizeGb": 0.96,
+      "mods": [
+        {
+          "id": "mg-hud",
+          "name": "Imperium Arena HUD",
+          "version": "1.2.0",
+          "sizeMb": 12.6,
+          "sha256": "b4e91c3a8d2f507491c6e8a2b3d7f1c5e9a4b2d8",
+          "category": "Ядро",
+          "required": true,
+          "description": "Таймер волн, статус кроватей, счётчик киллов, быстрое меню выбора режима и статистика дуэлей."
+        },
+        {
+          "id": "mg-auth",
+          "name": "Imperium Session Guard",
+          "version": "2.1.0",
+          "sizeMb": 4.2,
+          "sha256": "4e1c09b8a7d3521f8c44e9b2d1a0f7c6e3b9d8a2",
+          "category": "Ядро",
+          "required": true,
+          "description": "Авторизация по токену лаунчера без повторного ввода пароля в лобби."
+        },
+        {
+          "id": "mg-sodium",
+          "name": "Sodium + Lithium",
+          "version": "0.6.3",
+          "sizeMb": 14.5,
+          "sha256": "9d0e44b2c1a8763f52d8b4e1c9a7f3d6b2e8c1a5",
+          "category": "Оптимизация",
+          "required": true,
+          "description": "Максимальный стабильный FPS в PvP-замесах и на аренах с десятками игроков."
+        },
+        {
+          "id": "mg-voice",
+          "name": "Simple Voice Chat",
+          "version": "2.5.24",
+          "sizeMb": 8.6,
+          "sha256": "2b7a91e4c6d0835a71f3b9c4e2d8a6f1c5b3e7d9",
+          "category": "Интерфейс",
+          "required": false,
+          "description": "Командная голосовая связь для пати в BedWars и турнирных матчей."
+        }
+      ],
+      "news": [],
+      "newcomerSteps": [
+        {
+          "id": "ms1",
+          "stepNumber": "01",
+          "title": "Выберите режим в главном лобби",
+          "command": "Компас в руке [ПКМ]",
+          "description": "Сразу после входа откройте компас или подойдите к голограмме нужного режима: BedWars, SkyWars, Дуэли или Аркады.",
+          "tip": "Для быстрого старта с друзьями сначала соберите группу командой /party invite <ник>."
+        },
+        {
+          "id": "ms2",
+          "stepNumber": "02",
+          "title": "Настройте наборы и быстрые слоты",
+          "command": "/kit edit",
+          "description": "Расположите меч, блоки, лук и зелья в удобных слотах хотбара один раз — лаунчер сохранит раскладку для всех матчей.",
+          "tip": "В BedWars используйте быструю покупку на клавишу Shift + клик."
+        },
+        {
+          "id": "ms3",
+          "stepNumber": "03",
+          "title": "Участвуйте в турнирах выходного дня",
+          "command": "/tourney",
+          "description": "Каждую субботу проходят открытые кубки 2×2 и 4×4 с наградами на баланс аккаунта.",
+          "tip": "Запись открывается за 30 минут до начала турнира в центральном колизее."
+        }
+      ]
+    },
+    {
+      "id": "taurus",
+      "name": "CivCraft · Taurus",
+      "genre": "Военная стратегия",
+      "status": "open",
+      "statusLabel": "Подготовка сервера",
+      "eraLabel": "Индустриальная эпоха",
+      "mcVersion": "1.21.1",
+      "loader": "Fabric",
+      "onlinePlayers": 0,
+      "maxPlayers": 500,
+      "ipAddress": "taurus.imperium-civ.ru:25565",
+      "description": "Переработанный CivCraft на Paper 1.21.1 с живым верхним HUD, наглядным Древом технологий, 3D-превью построек и защитой новичков на старте.",
+      "heroImage": "/src/assets/images/hero_civcraft_taurus_1795535831250.jpg",
+      "accentHex": "#F5B841",
+      "baseSizeGb": 1.24,
+      "mods": [
+        {
+          "id": "imperium-hud",
+          "name": "Imperium CivCraft HUD",
+          "version": "1.4.2",
+          "sizeMb": 18.4,
+          "sha256": "8a3f92c1e7b0449d2c19b4a0e1d7f5a3c8b6e2d1",
+          "category": "Ядро",
+          "required": true,
+          "description": "Верхняя панель города и цивилизации, компас зон, таймер апдейта и интерактивное Древо технологий."
+        },
+        {
+          "id": "imperium-auth",
+          "name": "Imperium Session Guard",
+          "version": "2.1.0",
+          "sizeMb": 4.2,
+          "sha256": "4e1c09b8a7d3521f8c44e9b2d1a0f7c6e3b9d8a2",
+          "category": "Ядро",
+          "required": true,
+          "description": "Передача одноразового токена сессии при входе на сервер без возможности подмены ника."
+        },
+        {
+          "id": "civ-preview",
+          "name": "CivCraft 3D Blueprints",
+          "version": "1.1.8",
+          "sizeMb": 26.8,
+          "sha256": "c72b55a19f8e402d11a6c3b9f5e8d2a7c4b1e0f9",
+          "category": "Интерфейс",
+          "required": true,
+          "description": "3D-голограмма будущих построек, подсветка границ чанков города и превью щита новичков."
+        },
+        {
+          "id": "sodium-fabric",
+          "name": "Sodium + Lithium",
+          "version": "0.6.3",
+          "sizeMb": 14.5,
+          "sha256": "9d0e44b2c1a8763f52d8b4e1c9a7f3d6b2e8c1a5",
+          "category": "Оптимизация",
+          "required": true,
+          "description": "Стабильный FPS в плотных городах и на крупных осадах за счёт оптимизации рендера чанков."
+        },
+        {
+          "id": "voice-chat",
+          "name": "Simple Voice Chat",
+          "version": "2.5.24",
+          "sizeMb": 8.6,
+          "sha256": "2b7a91e4c6d0835a71f3b9c4e2d8a6f1c5b3e7d9",
+          "category": "Интерфейс",
+          "required": false,
+          "description": "Ближний голосовой чат для переговоров в городах, дипломатии и координации осад."
+        },
+        {
+          "id": "iris-shaders",
+          "name": "Iris Shaders + Complementary",
+          "version": "1.8.0",
+          "sizeMb": 112,
+          "sha256": "6f4d82a9b3c1750e28a4f6d9c2b8e5a1d7c3f9b6",
+          "category": "Шейдеры",
+          "required": false,
+          "description": "Опциональный пакет освещения и воды для мощных ПК (можно отключить без потери доступа)."
+        }
+      ],
+      "news": [],
+      "newcomerSteps": [
+        {
+          "id": "s1",
+          "stepNumber": "01",
+          "title": "Создайте первый лагерь (Camp)",
+          "command": "/camp create <название>",
+          "description": "Лагерь — ваша стартовая база без налогов. В нём есть сундук, печи и точка возврата. При закладке действует 48-часовой щит защиты.",
+          "tip": "Выбирайте место рядом с водой и деревом — так проще собрать ресурсы на первый город."
+        },
+        {
+          "id": "s2",
+          "stepNumber": "02",
+          "title": "Откройте Древо технологий в HUD",
+          "command": "Клавиша [K] в клиенте",
+          "description": "Больше не нужно учить десятки текстовых команд. Нажмите [K], выберите первую технологию «Каменная кладка» или «Земледелие» и отслеживайте прогресс в правом углу экрана.",
+          "tip": "Учёные в городе ускоряют изучение в 2 раза при достаточном уровне пробирки."
+        },
+        {
+          "id": "s3",
+          "stepNumber": "03",
+          "title": "Основание цивилизации и города",
+          "command": "/civ create <название>",
+          "description": "Накопив монеты с продажи стартовых ресурсов и ферм, заложите ратушу с помощью 3D-превью чанков. Подсветка сразу покажет границы вашей территории.",
+          "tip": "До окончания 48-часового щита постройте стены и башни лучников."
+        },
+        {
+          "id": "s4",
+          "stepNumber": "04",
+          "title": "Контроль экономики и апдейтов",
+          "command": "Верхний HUD",
+          "description": "Левый блок HUD показывает монеты, молотки и еду города; центр — текущую зону и таймер до следующего расчёта; правый — активное исследование цивы.",
+          "tip": "Следите за содержанием зданий до наступления ежедневного апдейта."
+        }
+      ]
+    },
+    {
+      "id": "aincrad",
+      "name": "Aincrad · Sky RPG",
+      "genre": "Парящий замок · RPG",
+      "status": "soon",
+      "statusLabel": "В разработке",
+      "eraLabel": "Закрытая бета",
+      "mcVersion": "1.21.1",
+      "loader": "Fabric",
+      "onlinePlayers": 0,
+      "maxPlayers": 1000,
+      "ipAddress": "aincrad.imperium-civ.ru:25567",
+      "description": "Масштабная RPG по мотивам парящего замка: 100 ярусов, боссы этажей, гильдейские штурмы, крафт редких клинков и боевые навыки меча.",
+      "heroImage": "/src/assets/images/hero_aincrad_sky_1795535832781.jpg",
+      "accentHex": "#38BDF8",
+      "baseSizeGb": 1.55,
+      "mods": [
+        {
+          "id": "aincrad-combat",
+          "name": "Aincrad Sword Skills",
+          "version": "0.9.0-beta",
+          "sizeMb": 34.5,
+          "sha256": "a1b2c3d4e5f60718293a4b5c6d7e8f9012345678",
+          "category": "Ядро",
+          "required": true,
+          "description": "Боевая система комбо-ударов, уклонений, стойки меча и анимации навыков этажей."
+        },
+        {
+          "id": "aincrad-hud",
+          "name": "Aincrad Party & HP HUD",
+          "version": "0.8.4-beta",
+          "sizeMb": 11.2,
+          "sha256": "f0e1d2c3b4a5968778695a4b3c2d1e0f98765432",
+          "category": "Интерфейс",
+          "required": true,
+          "description": "Полосы здоровья отряда, карта яруса, таймер рейдового босса и дерево навыков."
+        }
+      ],
+      "news": [],
+      "newcomerSteps": [
+        {
+          "id": "as1",
+          "stepNumber": "01",
+          "title": "Стартовый город Начал (Floor 1)",
+          "command": "Доступно на открытии",
+          "description": "Изучите базовые стойки одноручного меча, соберите первую экипировку и найдите отряд для прохождения лабиринта.",
+          "tip": "Для победы над боссом этажа потребуется слаженная группа от 6 игроков."
+        }
+      ]
+    }
+  ]
+}
