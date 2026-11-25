@@ -3,7 +3,7 @@
   "discordInvite": "discord.gg/imperium-civ",
   "mapUrlLabel": "map.imperium-civ.ru",
   "wikiTitle": "Атлас Цивилизации 1.21.1",
-  "remoteConfigUrl": "",
+  "remoteConfigUrl": "https://raw.githubusercontent.com/sopokxd-netizen/imperium-updates/refs/heads/main/launcher-config.json",
   "realms": [
     {
       "id": "minigames",
@@ -89,7 +89,8 @@
           "description": "Каждую субботу проходят открытые кубки 2×2 и 4×4 с наградами на баланс аккаунта.",
           "tip": "Запись открывается за 30 минут до начала турнира в центральном колизее."
         }
-      ]
+      ],
+      "manifestUrl": "https://github.com/sopokxd-netizen/imperium-updates/releases/download/client-v1/manifest.json"
     },
     {
       "id": "taurus",
