@@ -16,7 +16,7 @@
       "loader": "Fabric",
       "onlinePlayers": 0,
       "maxPlayers": 1000,
-      "ipAddress": "play.imperium-civ.ru:25564",
+      "ipAddress": "free-ru.joinserver.xyz:25902",
       "description": "Быстрые рейтинговые матчи без долгой раскачки: BedWars, SkyWars, Дуэли 1×1 и аркады с низким пингом и мгновенным поиском игр на 1.21.1.",
       "heroImage": "/src/assets/images/hero_minigames_arena_1795600660014.jpg",
       "accentHex": "#F59E0B",
