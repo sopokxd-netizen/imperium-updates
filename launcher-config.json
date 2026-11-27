@@ -256,5 +256,12 @@
         }
       ]
     }
-  ]
+  ],
+  "adminUsernames": [],
+  "authApiUrl": "https://imperium-auth.imperium-auth-ru.workers.dev",
+  "launcherUpdate": {
+    "version": "1.0.2",
+    "url": "https://github.com/sopokxd-netizen/imperium-updates/releases/tag/New-Versions",
+    "sha256": "AF60DBE24539FF11B9F82B2284FD17109F617726E293A2AA2EF019FC9EBD80CA"
+  }
 }
